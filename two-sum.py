@@ -23,5 +23,5 @@ class Solution(object):
         lookup = {}
         for i, num in enumerate(nums):
             if target - num in lookup:
-                return (lookup[target - num] + 1, i + 1)
+                return (lookup[target - num], i)
             lookup[num] = i
