@@ -18,7 +18,8 @@ class Solution(object):
         :rtype: ListNode
         """
         dummy = ListNode(0)
-        current, carry = dummy, 0
+        current = dummy
+        carry = 0
 
         while l1 or l2:
             val = carry
