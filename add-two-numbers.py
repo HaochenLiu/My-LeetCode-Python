@@ -30,7 +30,7 @@ class Solution(object):
                 val += l2.val
                 l2 = l2.next
             carry = val / 10
-            val = val % 10
+            val %= 10
             current.next = ListNode(val)
             current = current.next
 
