@@ -13,7 +13,10 @@ class Solution(object):
         :rtype: int
         """
 
-        longest, start, visited = 0, 0, [False for _ in xrange(256)]
+        longest = 0
+        start= 0
+        visited = [False for _ in xrange(256)]
+
         for i, char in enumerate(s):
             if visited[ord(char)]:
                 while char != s[start]:
