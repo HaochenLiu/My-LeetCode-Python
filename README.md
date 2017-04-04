@@ -1,1 +1,2 @@
 # LeetCode
+https://docs.python.org/2/library/functions.html#
