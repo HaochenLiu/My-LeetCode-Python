@@ -14,7 +14,7 @@ class Solution(object):
         """
 
         longest = 0
-        start= 0
+        start = 0
         visited = [False for _ in xrange(256)]
 
         for i, char in enumerate(s):
